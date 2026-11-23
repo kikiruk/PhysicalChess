@@ -1,65 +1,31 @@
-# Visual Studio / Rider / VS Code
+# Godot 4
+.godot/
+/android/
+*.translation
+
+# 내보낸 빌드물
+/build/
+*.apk
+*.aab
+
+# 서명 키 — 커밋 금지
+*.keystore
+*.jks
+
+# Claude Code 로컬 파일
+.claude/settings.local.json
+.claude/worktrees/
+
+# 에디터
 .vs/
 .idea/
 .vscode/
-*.sln
-*.suo
-*.opensdf
-*.sdf
-*.VC.db
-*.VC.opendb
-*.vsconfig
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.ipa
-
-# Unreal Engine generated folders
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
-Build/
-
-# Plugin generated folders
-Plugins/**/Binaries/
-Plugins/**/Intermediate/
-
-# Unreal Engine cache/backup files
-*.uasset.bak
-*.umap.bak
+# 임시·로그
 *.tmp
 *.log
 
-# Crash dumps
-*.dmp
-*.mdmp
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
